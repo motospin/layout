@@ -5,6 +5,7 @@
 	background-repeat: no-repeat;
 	height: 1080px;
 	position: relative;
+	overflow: hidden;
 }
 
 .featured__container {
@@ -76,14 +77,14 @@
 	color: var(--white-color);
 	max-width: 50%;
 
-	margin-bottom: 100px;
+	margin-bottom: 80px;
 }
 
 .feature-list__article {
 	border-bottom: 1px solid #4d5a5f;
 	display: flex;
 	align-items: flex-start;
-	padding: 53px 0;
+	padding: 30px 0;
 }
 
 .feature-list__item:last-child .feature-list__article {
@@ -95,6 +96,7 @@
 	overflow: hidden;
 	height: 48px;
 	width: 48px;
+	min-width: 48px;
 }
 
 .feature-list__image img {
@@ -113,4 +115,5 @@
 	font-weight: 400;
 	font-size: 18px;
 	color: var(--white-color);
+	max-width: 75%;
 }
