@@ -6,7 +6,7 @@
 @import "_overall.css";
 
 /* components imports */
-@import "./companents/_header.css";
+@import "../css/companents/_header.css";
 @import "./companents/_first.css";
 @import "./companents/_become.css";
 @import "./companents/_featured.css";
