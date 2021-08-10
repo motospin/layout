@@ -1,0 +1,25 @@
+.newsletter {
+	padding-top: 52px;
+}
+
+.newsletter__content{
+	overflow: hidden;
+	border-radius: 8px;
+	background-image: url(../../img/newsletter-bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
+	display: flex;
+	justify-content: space-between; /* раскидал контент по сторонам слева текст, справа форма */
+
+	padding:  0 133px;
+	padding-top: 340px;
+}
+
+.newsletter__title {
+	color: var(--white-color);
+	font-family: 'SFProDisplay', sans-serif;
+	font-size: 64px;
+	max-width: 50%;
+}
