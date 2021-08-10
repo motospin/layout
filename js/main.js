@@ -1,6 +1,9 @@
 let swiper = new Swiper('.slider-container', {
-	conteredSlides: true,
+	centeredSlides: true,  
 	slidesPerView: 'auto',
 	loop: true,
 	spaceBetween: 100,
+
+
+
 })
