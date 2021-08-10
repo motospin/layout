@@ -62,7 +62,7 @@
 }
 
 @font-face {
-	font-family: 'SFProText';
+	font-family: 'SFProText-Regular';
 	src: url('../fonts/SFProText-Regular.woff2') format('woff2'),
 		url('../fonts/SFProText-Regular.woff') format('woff');
 	font-display: swap;
