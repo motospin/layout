@@ -1,13 +1,13 @@
-@import url("_normalize.css");
-@import url("_fonts.css");
-@import url("_variables.css");
-@import url("_vendor.css");
-@import url("_global.css");
-@import url("_overall.css");
+@import url("normalize.css");
+@import url("fonts.css");
+@import url("variables.css");
+@import url("vendor.css");
+@import url("global.css");
+@import url("overall.css");
 
 /* components imports */
 
-@import url("./companents/_header.css");
-@import url("./companents/_first.css");
+@import url("./companents/header.css");
+@import url("./companents/first.css");
 @import url("./companents/become.css");
-@import url("./companents/_featured.css");
+@import url("./companents/featured.css");
