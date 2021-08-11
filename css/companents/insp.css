@@ -64,7 +64,7 @@
 
 	color: var(--white-color);
 	display: inline-block;
-	margin-bottom: 5px;
+	margin-bottom: 10px;
 }
 
 .insp__title {
@@ -72,11 +72,12 @@
 	font-size: 32px;
 	line-height: 40px;
 	color: var(--white-color);
-	margin-bottom: 20p5;
+	margin-bottom: 20px;
 }
 
 .insp__people {
 	display: flex;
+	margin-top: 21px; /*  если будут проблемы с адаптивом, то убрать*/
 }
 
 .insp__people-item {
@@ -91,10 +92,6 @@
 
 .insp__people-item:not(:first-child){
 	margin-left: -15px;
-}
-
-.insp__people-item:first-child {
-	z-index: 3;
 }
 
 .insp__people-item img{
@@ -137,4 +134,16 @@
 
 .insp__item--7{
 	background-image: url(../../img/insp-7.jpg);
+}
+
+.insp__play {
+background-image: url(../../img/play.svg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+width: 64px;
+height: 64px;
+position: absolute;
+left: 40px;
+top: 40px;
 }
