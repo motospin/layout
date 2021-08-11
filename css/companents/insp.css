@@ -53,6 +53,8 @@
 	left: 0;
 	bottom: 0;
 	z-index: 5;
+	padding: 0 40px;
+	padding-bottom: 45px;
 }
 
 .insp__category {
@@ -61,7 +63,8 @@
 	text-transform: uppercase;
 
 	color: var(--white-color);
-
+	display: inline-block;
+	margin-bottom: 5px;
 }
 
 .insp__title {
@@ -69,6 +72,7 @@
 	font-size: 32px;
 	line-height: 40px;
 	color: var(--white-color);
+	margin-bottom: 20p5;
 }
 
 .insp__people {
@@ -81,7 +85,16 @@
 	border: 1px solid var(--white-color);
 	width: 48px;
 	height: 48px;
-	background-color: var(--white-color);;
+	background-color: var(--white-color);
+	position: relative;
+}
+
+.insp__people-item:not(:first-child){
+	margin-left: -15px;
+}
+
+.insp__people-item:first-child {
+	z-index: 3;
 }
 
 .insp__people-item img{
