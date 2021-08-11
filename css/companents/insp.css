@@ -1,5 +1,6 @@
 .insp {
 	padding-top: 95px;
+	padding-bottom: 50px;
 }
 
 .insp__heading {
@@ -127,6 +128,8 @@
 .insp__item--5{
 	background-image: url(../../img/insp-5.jpg);
 }
+
+
 
 .insp__item--6{
 	background-image: url(../../img/insp-6.jpg);
